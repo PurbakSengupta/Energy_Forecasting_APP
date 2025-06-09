@@ -45,7 +45,7 @@ API runs at: http://127.0.0.1:8000
 
 ---
 
-##n🤖 Ollama Setup (for Local LLM)
+## 🤖 Ollama Setup (for Local LLM)
 Don't forget to start Ollama before running the frontend and backend!!
 Install Ollama for local LLMs:
 
