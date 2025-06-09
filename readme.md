@@ -8,12 +8,15 @@ This project is an AI-powered energy forecasting platform built with a TypeScrip
 
 ```bash
 HCAI/
-├── frontend/ # Frontend app (React/Vite + TailwindCSS)
-├── backend/ # Backend API (FastAPI + ML models + SHAP)
-│ ├── main.py # Main FastAPI app
+├── frontend/ # Frontend app (Vite + React + TailwindCSS)
+├── backend/ # Backend API (FastAPI + ML + SHAP)
+│ ├── main.py # API with forecasting and explanation
 │ └── ml/
-│ ├── transforms.py # Signal transformations (DCT, DWT, CS)
-│ └── models/ # Saved ML models and SHAP explainers
+│ ├── transforms.py # DCT, DWT, CS signal transforms
+│ └── models/ # Pretrained models and SHAP explainers
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -25,6 +28,17 @@ HCAI/
 - Model support: LSTM, Transformer, CNN-LSTM
 - SHAP-based model explainability
 - Live explanation with local LLM via [Ollama](https://ollama.com/)
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/PurbakSengupta/Energy_Forecasting_APP.git
+cd Energy_Forecasting_APP
+```
 
 ---
 
