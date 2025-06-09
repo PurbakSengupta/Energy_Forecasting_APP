@@ -49,8 +49,10 @@ API runs at: http://127.0.0.1:8000
 Don't forget to start Ollama before running the frontend and backend!!
 Install Ollama for local LLMs:
 
+```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ollama run llama3
+```
 This should run the LLM locally and enable dynamic SHAP explanations.
 
 
@@ -71,9 +73,11 @@ All Python dependencies for backend are listed in backend/requirements.txt.
 
 To set up a clean virtual environment:
 
+```bash
 python -m venv hcai
 source hcai/bin/activate  # on Windows: hcai\Scripts\activate
 pip install -r backend/requirements.txt
+```
 
 🧪 Model Files
 All model files are stored under backend/ml/models/. Pre-trained .h5 files and SHAP explainers are included.
