@@ -36,10 +36,12 @@ Access the app at: http://localhost:5173
 
 ## 🧠 Backend Setup (FastAPI + ML)
 
+```bash
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 API runs at: http://127.0.0.1:8000
+```
 
 ---
 
