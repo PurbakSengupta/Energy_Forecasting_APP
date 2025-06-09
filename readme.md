@@ -1,4 +1,4 @@
-# Human-Centered AI Forecasting System 🌤️⚡
+# Human-Centered AI-Energy Forecasting System 🌤️⚡
 
 This project is an AI-powered energy forecasting platform built with a TypeScript-based frontend and a Python FastAPI backend. It integrates advanced models like LSTM, Transformer, and CNN-LSTM along with explainability using SHAP, and supports live SHAP-based explanations via Ollama.
 
