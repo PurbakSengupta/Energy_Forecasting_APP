@@ -5,13 +5,14 @@ This project is an AI-powered energy forecasting platform built with a TypeScrip
 ---
 
 ## 🔧 Project Structure
+
 HCAI/
-│
-├── frontend/ → Frontend app (React/Vite + TailwindCSS)
-├── backend/ → Backend API (FastAPI + ML models + SHAP)
-│ └── main.py
-│ └── ml/ transforms.py → Signal transformations
-│     └── ml/ models/ → models
+├── frontend/ # Frontend app (React/Vite + TailwindCSS)
+├── backend/ # Backend API (FastAPI + ML models + SHAP)
+│ ├── main.py # Main FastAPI app
+│ └── ml/
+│ ├── transforms.py # Signal transformations (DCT, DWT, CS)
+│ └── models/ # Saved ML models and SHAP explainers
 
 ---
 
